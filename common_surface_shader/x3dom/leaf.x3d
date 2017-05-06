@@ -43,7 +43,7 @@
         <ImageTexture containerField="normalTexture" crossOrigin="anonymous" url='"textures/leaf_normal_map.png"' ></ImageTexture>
       </CommonSurfaceShader>
     </Appearance>
-    <Box solid='false'></Box>
+    <Box></Box>
   </Shape>
   <TimeSensor DEF="TS" cycleInterval="5" loop="true"></TimeSensor>
   <SplinePositionInterpolator DEF="MOVER" key="0 0.5 1" keyVelocity="0 0 0  0 0 0" keyValue="-2 1 2  2 1 2  -2 1 2"></SplinePositionInterpolator>
