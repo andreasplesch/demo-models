@@ -8,7 +8,7 @@
   <NavigationInfo headlight="FALSE"></NavigationInfo>
   <Viewpoint position="0 0 4"></Viewpoint>
   <Transform DEF='light' translation='1 0 2'>
-    <PointLight location="0 0 0"></PointLight>
+    <PointLight ambientIntensity='0.5' location="0 0 0"></PointLight>
     <Shape>
       <Appearance>
         <Material emissiveColor='0.8 0.8 0.8'></Material>
