@@ -6,7 +6,7 @@
 <Scene>
   <Background skyColor="0 0 0"></Background>
   <NavigationInfo headlight="FALSE"></NavigationInfo>
-  <Viewpoint position="0 0 4"></Viewpoint>
+  <Viewpoint position="0 0 4" zfar='100'></Viewpoint>
   <Transform DEF='light' translation='1 0 2'>
     <PointLight location="0 0 0"></PointLight>
     <Shape>
