@@ -27,14 +27,15 @@
   </Transform>  
   <Shape>
     <Appearance>
-      <!--
-      <CommonSurfaceShader specularFactor="1 1 1" shininessTextureChannelMask="r" shininessFactor="1">
+      
+      <CommonSurfaceShader specularFactor="1 1 1" shininessTextureChannelMask="r" shininessFactor="2">
         <ImageTexture containerField="diffuseTexture" crossOrigin="anonymous" url='"textures/rust_metal_textures/metall001-new-tileable.png"'></ImageTexture>
         <ImageTexture containerField="normalTexture" crossOrigin="anonymous" url='"textures/rust_metal_textures/metall001-new-nm.png"'></ImageTexture>
         <ImageTexture containerField="shininessTexture" crossOrigin="anonymous" url='"textures/rust_metal_textures/metall001-new-contrast.png"'></ImageTexture>
       </CommonSurfaceShader>
--->
+      <!--
       <Material specularColor="0.6 0.5 0.4" shininess="0.9"></Material>
+-->
     </Appearance>
     <Box></Box>
   </Shape>
